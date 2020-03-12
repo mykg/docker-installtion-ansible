@@ -1,0 +1,7 @@
+- hosts: all
+  tasks:
+
+     - name: installing docker
+       yum:
+        name: docker-ce
+        state: latest

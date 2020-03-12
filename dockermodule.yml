@@ -1,0 +1,11 @@
+- hosts: all
+  tasks:
+
+   - name: python-pip install
+     yum: 
+       name: python2-pip
+       state: present
+
+   - name: docker.py module using pip
+     pip:
+       name: docker

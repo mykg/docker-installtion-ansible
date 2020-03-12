@@ -1,0 +1,7 @@
+- hosts: all
+  tasks:
+
+     - name: docker image pull
+       docker_image:
+           name: centos:7
+           source: pull
