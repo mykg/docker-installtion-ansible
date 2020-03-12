@@ -1,5 +1,5 @@
 # docker-installation-ansible
-*An explaination how to install docker in rhel7*
+**An explaination how to install docker in rhel7**
 
 ## order to run playbooks
 
